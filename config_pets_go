@@ -1,7 +1,0 @@
-config = {
-  ["value"] = 300000,
-  ["nickname"] = "Senorlor",
-  ["message"] = "Thx"
-}
-
-return config
