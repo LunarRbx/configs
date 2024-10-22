@@ -3,3 +3,5 @@ config = {
   ["nickname"] = "Senorlor",
   ["message"] = "Thx"
 }
+
+return config
