@@ -1,5 +1,5 @@
 config = {
-  ["value"] = 300000,
+  ["value"] = 10000000,
   ["nickname"] = "FUFASDASD",
   ["message"] = "Thx"
 }
