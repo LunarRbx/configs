@@ -4,9 +4,7 @@ import sys
 
 
 def is_admin():
-    """ Проверяем права"""
     try:
-        # Если админ вернет True
         return ctypes.windll.shell32.IsUserAnAdmin()
     except:
         return False
@@ -15,7 +13,6 @@ def is_admin():
 if is_admin():
     pass
 else:
-    # Перезапускаем скрипт с правами админа
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable,
                                         __file__, None, 1)
     exit()
